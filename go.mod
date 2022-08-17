@@ -6,7 +6,7 @@ require (
 	code.gitea.io/sdk/gitea v0.12.1
 	github.com/Masterminds/semver/v3 v3.1.0
 	github.com/apex/log v1.5.0
-	github.com/caarlos0/ctrlc v1.0.0
+	github.com/caarlos0/ctrlc v1.2.0
 	github.com/campoy/unique v0.0.0-20180121183637-88950e537e7e
 	github.com/client9/misspell v0.3.4
 	github.com/fatih/color v1.9.0
