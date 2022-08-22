@@ -3,6 +3,7 @@ module github.com/goreleaser/goreleaser
 go 1.14
 
 require (
+	cloud.google.com/go/kms v1.4.0 // indirect
 	code.gitea.io/sdk/gitea v0.12.1
 	github.com/Masterminds/semver/v3 v3.1.0
 	github.com/apex/log v1.5.0
@@ -20,11 +21,11 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/cobra v1.0.0
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.8.0
 	github.com/ulikunitz/xz v0.5.7
-	github.com/xanzy/go-gitlab v0.33.0
+	github.com/xanzy/go-gitlab v0.73.0
 	gocloud.dev v0.20.0
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sync v0.0.0-20200625203802-6e8e738ad208
+	golang.org/x/oauth2 v0.0.0-20220722155238-128564f6959c
+	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
 	gopkg.in/yaml.v2 v2.3.0
 )
